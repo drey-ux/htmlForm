@@ -1,0 +1,105 @@
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 30px;
+    border: 3px dotted blue;
+    margin-left: 200px;
+    margin-right: 200px; 
+}
+
+.general{
+    background-color: grey;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px gold;
+
+}
+.single{
+    background-color: burlywood;
+    margin: 20px;
+    padding: 20px;
+    font-family: sans-serif;
+
+}
+.double {
+    background-color: rgb(127, 215, 218);
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid hotpink;
+    
+}
+.space {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 15px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.rock{
+    background-color: goldenrod;
+    padding: 20px;
+    margin: 20px;
+    font-family: sans-serif;
+}
+#option {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: 15px;
+}
+.classic{
+    background-color: khaki;
+    margin: 20px;
+    padding: 20px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    border: 1px dashed green;
+
+}
+#question{
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+#answer{
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    border: 1px solid white;
+}
+#help{
+    background-color: indianred;
+    padding: 20px;
+    margin: 20px;
+
+}
+#bio{
+    padding: 10px;
+    line-height: 25px;
+    letter-spacing: normal;
+    font-family: monospace;
+}
+.imagine{
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    background-color: lawngreen;
+}
+.standard{
+    padding: 15px;
+    border-radius: 14px;
+    border: 1px solid white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;;
+}
+.standard:hover{
+    color: tomato;
+}

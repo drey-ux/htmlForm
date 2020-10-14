@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <header>
+    <h1>HTML Forms</h1>
+    </header>
+    
+    <form>
+        <div class="container">
+    <div class="general">
+        <p>Profile Picture</p>
+        <label for="file">Upload a picture</label>
+        <input type="file" id="file" name="file" required>
+        <br><br>
+        <label for="username">Enter Username: </label>
+        <input type="text" id="username" name="username" class="space" placeholder="Username" required>
+        <br><br>
+        <label for="email">Enter Email:</label>
+        <input type="email" id="email" name="email" class="space" placeholder="example@email.com" required>
+        <br><br>
+        <label for="">Enter Password:</label>
+        <input type="password" id="password" name="password" class="space" placeholder="Password" required>
+        <br><br>
+        <label for="tel">Enter Phone Number: </label>
+        <input type="tel" id="tel"  name="tel" class="space" maxlength="15" placeholder="810-427-7806" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        <br><br>
+    </div>
+    <div class="single">
+        <p>Select date</p>
+        <label for="date1">Check-in Date:</label>
+        <input type="date" id="date1" name="date" value="2000-08-30" min="1999-07-03" max="2020-08-06" required>
+        <label for="date2">Check-out Date:</label>
+        <input type="date" id="date2" name="date" value="2001-08-29" min="1997-07-03" max="2020-08-06" required>
+
+        <br><br>
+    </div>
+    <div class="double">
+        <p>Select your age:</p>
+
+        <input type="radio" name="age" value="0-25" id="option-1">
+        <label for="option-1">0-25</label><br><br>
+        <input type="radio" name="age" value="26-50" id="option-2">
+        <label for="option-2">26-50</label><br><br>
+        <input type="radio" name="age" value="50+" id="option-3">
+        <label for="option-3">50+</label>
+
+        <br><br>
+    </div>
+    <div class="rock">
+        <p>Select your language:</p>
+
+        <input list="lang" id="option" placeholder="Select Language" required>
+        <datalist id="lang" name="lang">
+            <option value="English"></option>
+            <option value="Yoruba"></option>
+            <option value="Greek"></option>
+            <option value="Latin"></option>
+        </datalist>
+        <br><br>
+        <details>
+            <summary>Please click here for more options</summary>
+            <p>Fruits</p>
+            <p>Apple, Kiwi, Orange</p>
+            <p>Fruits are good for the body</p>
+        </details>
+    </div>
+    <div class="classic">
+        <label for="question">Security question: </label>
+        <select name="question" id="question">
+            <option value="q1">What colours are your favourite pairs of socks?</option>
+            <option value="q2">If you could be a vegetable what will it be?</option>
+            <option value="q3">What is your best ever security question?</option>
+        </select>
+
+        <br><br>
+
+        <label for="answer">Security question answer</label>
+        <input type="text" id="answer" name="answer" required>
+
+        <br><br>
+    </div>
+    <div id="help">
+        <label for="bio">Enter bio: </label><br><br>
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Tell us about yourself"></textarea>
+
+        <br><br>
+    </div>
+    <div class="imagine">
+        <input type="button" class="standard" value="Click Me!" onclick="alert('Kindly check to see that you have entered the correct information and proceed to click the submit button to complete your registration')"><br><br>
+        <input type="submit" class="standard" value="Submit this form">
+    </div>
+    </div>
+    </form>
+
+</body>
+</html>
